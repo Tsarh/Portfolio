@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 .contact__container {
     grid-template-columns: 4fr 8fr;
 }
