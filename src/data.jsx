@@ -9,10 +9,10 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
+import Work1 from './assets/project-1.jpg';
 import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
+import Work3 from './assets/project-3.jpg';
+import Work4 from './assets/project-4.jpg';
 import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
 
@@ -91,7 +91,7 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Antananariro Avara-drano',
+    description: 'Antananariro Avaradrano',
   },
 
   {
@@ -122,26 +122,26 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '2+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '7+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
+    no: '10+',
     title: 'Happy <br /> Customers',
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: '1',
+    title: ' Awards <br /> Participation',
   },
 ];
 
@@ -205,7 +205,7 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '70',
   },
 
   {
@@ -223,13 +223,13 @@ export const skills = [
   {
     id: 4,
     title: 'Php',
-    percentage: '66',
+    percentage: '50',
   },
 
   {
     id: 5,
     title: 'Wordpress',
-    percentage: '95',
+    percentage: '90',
   },
 
   {
@@ -240,14 +240,14 @@ export const skills = [
 
   {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    title: 'Vue',
+    percentage: '50',
   },
 
   {
     id: 8,
     title: 'React',
-    percentage: '45',
+    percentage: '65',
   },
 ];
 
