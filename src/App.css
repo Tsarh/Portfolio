@@ -121,6 +121,15 @@
    margin-bottom: 70px;
 }
 
+@media (max-width: 500px) {
+   .section__title {
+      font-size: var(--h2-font-size);
+      font-weight: var(--weight-700);
+      text-align: center;
+      margin-bottom: 70px;
+   }
+}
+
 .section__title span {
    color: var(--first-color);
 }

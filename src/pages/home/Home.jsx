@@ -21,12 +21,12 @@ const Home = ()=>{
                           maiores odit cum nam amet obcaecati.
                     </motion.p>
 
-                    <motion.Link initial={{opacity: 0}} whileInView={{opacity: 1, transition: {duration: 1.5}}} to='/about' className='button'>
+                    <Link initial={{opacity: 0}} whileInView={{opacity: 1, transition: {duration: 1.5}}} to='/about' className='button'>
                         More About Me{' '}
                         <span className='button__icon'>
                             <FaArrowRight/>
                         </span>
-                    </motion.Link>
+                    </Link>
                 </div>
             </div>
 

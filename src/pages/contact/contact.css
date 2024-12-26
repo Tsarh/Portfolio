@@ -94,3 +94,23 @@
     font-size: var(--h3-font-size);
     line-height: 64px;
 }
+
+.relative-contact {
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    .contact__container {
+        display: block;
+        text-align: center;
+    }
+
+    .contact__info {
+        text-align: left;
+    }
+
+    .form__input-group {
+        margin-top: 50px;
+        display: block;
+    }
+}

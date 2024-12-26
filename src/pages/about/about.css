@@ -4,6 +4,7 @@
 .resume__container {
     grid-template-columns: repeat(2, 1fr);
     align-items: flex-start;
+    justify-content: center;
 }
 
 .info__list {
@@ -167,4 +168,39 @@
 .resume__description {
     font-size: var(--smaller-font-size);
     line-height: 1.6;
+}
+
+@media (max-width: 500px) {
+    .about__container,
+    .info__list,
+    .stats,
+    .resume__container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+        align-items: flex-start;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .skills__container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(150px, 200px));
+        justify-items: center;
+        row-gap: 20px;
+        justify-content: center;
+    }
+
+    .stats {
+        text-align: left;
+        grid-template-columns: repeat(2, 170px);
+    }
+
+    .stats__box {
+        border: 1px solid var(--border-color);
+        padding: 10px 20px 17px;
+        border-radius: 5px;
+    }
+
+    .resume__container {
+        text-align: left;
+    }
 }
