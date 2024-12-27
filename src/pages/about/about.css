@@ -170,7 +170,7 @@
     line-height: 1.6;
 }
 
-@media (max-width: 500px) {
+@media (max-width:  980px) {
     .about__container,
     .info__list,
     .stats,

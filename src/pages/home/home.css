@@ -101,7 +101,7 @@
     transform: rotate(-15deg);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 980px) {
     .home {
         display: block;
     }
