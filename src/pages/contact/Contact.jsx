@@ -30,22 +30,26 @@ const Contact = ()=>{
                     <div className="relative-contact">
                         <div className="contact__info">
                             <motion.div initial={{ transform: "translateY(-100px)" }} animate={{ transform: "translateY(0px)", transition: {duration: 0.7} }} className="info__item">
-                                <FaEnvelopeOpen className="info__icon"/>
-                                <div>
-                                    <span className="info__title">
-                                        Mail me
-                                    </span>
-                                    <h4 className="info__desc">Razjazz882@gmail.com</h4>
+                                <div className="flex">
+                                    <FaEnvelopeOpen className="info__icon"/>
+                                    <div>
+                                        <span className="info__title">
+                                            Mail me
+                                        </span>
+                                        <h4 className="info__desc">Razjazz882@gmail.com</h4>
+                                    </div>
                                 </div>
                             </motion.div>
 
                             <motion.div initial={{ transform: "translateY(-100px)" }} animate={{ transform: "translateY(0px)", transition: {duration: 0.5} }} className="info__item">
-                                <FaPhoneSquareAlt className="info__icon"/>
-                                <div>
-                                    <span className="info__title">
-                                        Call me
-                                    </span>
-                                    <h4 className="info__desc">034 50 513 24</h4>
+                                <div className="flex">
+                                    <FaPhoneSquareAlt className="info__icon"/>
+                                    <div>
+                                        <span className="info__title">
+                                            Call me
+                                        </span>
+                                        <h4 className="info__desc">034 50 513 24</h4>
+                                    </div>
                                 </div>
                             </motion.div>
                         </div>

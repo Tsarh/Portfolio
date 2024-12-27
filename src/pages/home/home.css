@@ -100,3 +100,39 @@
     left: -83%;
     transform: rotate(-15deg);
 }
+
+@media (max-width: 500px) {
+    .home {
+        display: block;
+    }
+
+    .color__block {
+        visibility: hidden;
+    }
+
+    .home__title {
+        position: relative;
+        font-size: var(--h3-font-size);
+        line-height: 1.24;
+        padding-left: 00px;
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .home__title::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 12%;
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
+    }
+
+    .button {
+        margin-left: 45px;
+    }
+}

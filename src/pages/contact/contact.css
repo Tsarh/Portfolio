@@ -113,4 +113,21 @@
         margin-top: 50px;
         display: block;
     }
+
+    .contact__socials {
+        display: flex;
+        justify-content: space-around;
+        column-gap: 16px;
+    }
+
+    .info__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .relative-contact {
+        margin-bottom: 50px;
+    }
 }
