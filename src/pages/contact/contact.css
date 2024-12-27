@@ -120,6 +120,10 @@
         column-gap: 16px;
     }
 
+    .flex {
+        display: block;
+    }
+
     .info__item {
         display: flex;
         align-items: center;
